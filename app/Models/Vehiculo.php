@@ -13,4 +13,12 @@ class Vehiculo extends Model
         return $this->belongsTo(Tarifa::class);
     }
 
+    public function facturas(){
+        return $this->hasMany(Factura::class);
+    }
+
+    public function tickets(){
+        return $this->hasMany(Ticket::class);
+    }
+
 }

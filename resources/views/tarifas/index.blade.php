@@ -21,7 +21,6 @@
         </thead>
         <tbody>
             @foreach($tarifas as $tarifa)
-
                 <tr>
                     <td>{{ $tarifa->id }}</td>
                     <td>{{ $tarifa->tipo_vehiculo }}</td>

@@ -17,6 +17,6 @@
             <input type="number" step="0.01" name="valor_minuto" class="form-control" required>
         </div>
         <button type="submit" class="btn btn-success">Guardar</button>
-        <a href="{{ route('tarifas.index) }}" class="btn btn-secondary">Cancelar</a>
+        <a href="{{ route('tarifas.index') }}" class="btn btn-secondary">Cancelar</a>
     </form>
 @endsection
